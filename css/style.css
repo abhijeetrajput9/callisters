@@ -1,0 +1,383 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: "Great Vibes", cursive;
+}
+span{
+    font-family: "Satisfy", cursive;
+}
+
+body{ 
+	overflow-x: hidden;
+}
+
+/*------------Custom css------------*/
+ ::-webkit-scrollbar{
+    width: 15px
+  }
+  ::-webkit-scrollbar-track{
+  	background-color: lightgray;/*goldenrod*/;
+  }
+  ::-webkit-scrollbar-thumb{
+  	background: linear-gradient(red,yellow,red);
+  	border-radius: 10px;
+  }
+/*-------snowflake---------*/
+ .snow-area{
+ 	position: fixed;
+ 	left: 0;
+ 	top: 0;
+ 	width: 100%;
+ 	height: 100vh;
+ 	z-index: 1000;
+ 	pointer-events: none;
+ }
+
+/*-----------navbar---------*/
+.header .navbar .navbar-collapse ul li a{
+	color: red;
+	display: inline-block;
+}
+.header .navbar .navbar-collapse ul li a:hover{
+	border-radius: 0 15px;
+	background-color: red;
+	color: #ffc107;
+}
+@media (min-width:768px) and (max-width:992px){
+	.header{
+		height: 200px;
+	}
+}
+/*-----------banner-----------*/
+.banner .carousel-caption{
+	right: 22%;
+    left: -26%;
+    top: 30%;
+}
+.banner .carousel-caption span{
+	font-weight: 200;
+	font-size: 50px;
+}
+.banner .carousel-caption h1{
+	font-size: 80px;
+}
+.banner .carousel-caption p{
+	line-height: 70px;
+	word-spacing: 3px;
+}
+ .banner .carousel-caption a{
+	border-radius: 0 15px;
+	background-color: #ffc107 ;
+	color: red;
+}
+.banner .carousel-caption a:hover{
+	background-color: red;
+	color: yellow;
+}
+.banner .carousel-caption-caption {
+    position: absolute;
+    right: -29%;
+    bottom: 18%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.banner .carousel-caption-caption span{
+	font-weight: 200;
+	font-size: 50px;
+}
+.banner .carousel-caption-caption h1{
+	font-size: 80px;
+}
+.banner .carousel-caption-caption p{
+	line-height: 70px;
+	word-spacing: 3px;
+}
+ .banner .carousel-caption-caption a{
+	border-radius: 0 15px;
+	background-color: #ffc107 ;
+	color: red;
+}
+.banner .carousel-caption-caption a:hover{
+	background-color: red;
+	color: yellow;
+}
+/*-----------banner exit-----------*/
+
+/*-----------Best-wise-----------*/
+.wise{
+	margin-top: 100px;
+}
+.wise .best_wise h1{
+	font-size: 70px;
+}
+.wise h2{
+	font-size:40px;
+}
+.wise p{
+	margin-top: 22px;
+    font-size: 20px;
+}
+.wise a{
+	border-radius: 0 15px;
+	background-color: red;
+	color: yellow;
+	margin-top: 23px;
+}
+.wise a:hover{
+	background-color: #ffc107 ;
+	color: red;
+}
+.wise_wise{
+	margin-top: 100px;
+     background-color: #f7f7f7;
+    padding: 50px 0px;
+}
+.wise_wise h2{
+	font-size:40px;
+}
+.wise_wise p{
+	margin-top: 22px;
+    font-size: 20px;
+}
+.wise_wise  a{
+	border-radius: 0 15px;
+	background-color: red;
+	color: yellow;
+	margin-top: 23px;
+}
+.wise_wise a:hover{
+	background-color: #ffc107 ;
+	color: red;
+}
+/*-----------Best-wise exit-----------*/
+
+/*---------------event---------------*/
+.event{
+	margin-top: 100px;
+}
+.event .event_topic h1{
+	font-size: 80px;
+}
+.event_video video{
+	height: 400px;
+	width: 400px;
+	background-color: navajowhite;
+	border-radius: 10%;
+	/*background-image: repeating-linear-gradient(white 10%, black 20%);*/
+	background-color: lightyellow;
+}
+.event_item{
+	padding: 80px 0px;
+    border-radius: 10px;
+}
+.event_text{
+	margin-top: 40px;
+}
+.event_text p{
+	font-size: 18px;
+}
+.event_text a{
+	border-radius: 0 15px;
+	background-color: red;
+	color: yellow;
+}
+.event_text a:hover{
+	background-color: #ffc107 ;
+	color: red;
+	font-weight: 700;
+}
+.event_place{
+	margin-top: 100px;
+}
+.event_place .event_box img{
+    object-fit: cover;
+    transition: 1s ease;
+}
+.event_place .event_box img:hover{
+	transform: scale(1.1,1.1);
+}
+.event_place .event_box .event_bx{
+	overflow: hidden;
+	cursor: pointer;
+}
+/*---------------event exit---------------*/
+
+/*-----------Best-deals-----------*/
+.best_deals{
+	margin-top: 100px;
+}
+.best_deals h1{
+	font-size: 80px;
+}
+.best_deals_image .img-fluid{
+ 
+    height: auto;
+    border:5px solid #f7f7f7;
+}
+.best_deals_image .img-fluid:hover{
+    border: 5px solid red;
+}
+.best_deals_img .img-fluid:hover{
+    border: 5px solid red;
+}
+.best_deals_image{
+	position: relative;
+}
+.best_deals_image img{
+	margin-top: 40px;
+}
+.best_deals_text{
+	position: absolute;
+	bottom: 62%;
+	width: 89%;
+    left: 6%;
+}
+.best_deals_text h1{
+	 box-sizing: border-box;
+}
+
+/*-----------Best-deals exit-----------*/
+
+/*------------picnic-----------*/
+.picnic{
+	margin: 100px;
+}
+.picnic_topic h1{
+	font-size: 80px;
+}
+.gallery img{
+	height: 200px;
+	width: 100px;
+}
+.gallery .container{
+	width: 100px;
+	height: 250px;
+	position: relative;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	animation: gallary 20s linear infinite;
+	cursor: pointer;
+}
+.gallery .container span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transform: rotatey(calc(var(--i)*45deg)) translate(500px);
+	-webkit-box-reflect: below 2.5px linear-gradient(transparent, transparent, rgba(3, 3, 3, 0.2));
+}
+.gallery .container span img{
+	position: absolute;
+	border-radius: 10px;
+	border: 6px ridge #ccc;
+}
+@keyframes gallary{
+      0%{
+      	transform: perspective(1000px) rotateY(0deg);
+      }
+      100%{
+      	transform: perspective(1000px) rotateY(360deg);
+      } 
+}
+/*------------picnic exit-----------*/
+
+/*---------------donate---------------*/
+.donate{
+	margin-top: 100px;
+}
+.donate h1{
+	font-size: 80px;
+}
+.donate_image .img-fluid{
+	border: 5px solid #f7f7f7;
+}
+.donate_image .img-fluid:hover{
+	border: 5px solid red;
+}
+.donate_image .donate_item{
+	position: relative;
+	overflow: hidden;
+}
+.donate_image .donate_text{
+	position: absolute;
+	background-color: red;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	top: -100%;
+	left:0;
+	box-sizing: border-box;
+	transition: all 0.5s;
+}
+.donate_image .donate_item:hover .donate_text{
+     top:0;
+}
+.donate_image .donate_text h1{
+	margin-top: 90px;
+}
+/*------------donate exit-----------*/
+
+.testimonial{
+	background-image: url(C:/Users/lalit/Desktop/Crishtmax/testimonial.jpg);
+	position: center;
+	margin-top: 100px;
+	padding-bottom: 60px;
+}
+.testimonial .testimonial_topic h1{
+	font-size: 80px;
+	
+}
+.testimonial .owl-carousel .item{
+	border: 5px solid red;
+	border-radius: 10px;
+    height: auto;
+	width: auto;
+}
+.testimonial .owl-carousel .item img{
+	height: 180px;
+	width: 150px;
+}
+.testimonial .owl-carousel .item p{
+   margin-bottom: 0rem;
+   font-weight: 500;
+}
+.map .map_york iframe{
+	width: 100%;
+}
+/*--------contect us-------*/
+.contect_us{
+	padding: 100px;
+}
+.contect_us .contect h2{
+	font-size: 90px;
+	font-weight: 600;
+	word-spacing: 20px;
+}
+.contect_us .form input[type="text"]{
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	padding: 15px 52% 15px 0px;
+}
+.contect_us .form ::placeholder{
+	color: white;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.contect_us .form .btn{
+	border-radius: 0px 15px;
+	font-weight: 500;
+}
+.contect_us .form p input[type="message"]{
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	padding: 15px 52% 20% 0px;
+}
+/*--------contect us exit----*/
+
+
